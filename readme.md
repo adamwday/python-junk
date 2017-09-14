@@ -1,10 +1,6 @@
-# Resources (Terraform-N2-aws) Repo
+# Python Repo
 
-This repository is for showing how you can deploy into AWS with Terraform
-
-## Introduction
-
-Sample website with plenty of files for demos
+This repository is for storing various use-cases with python.
 
 ## Purpose
 
