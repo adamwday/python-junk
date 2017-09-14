@@ -1,6 +1,6 @@
 # Python Repo
 
-This repository is for storing various use-cases with python.
+This repository is for storing various use-cases with python..
 
 ## Purpose
 
