@@ -1,6 +1,7 @@
 # Python Repo
 
-This repository is for storing various use-cases with python..
+This repository is for storing various use-cases with python and hopefully
+intergrating those scripts with Terraform/Chef deployments.
 
 ## Purpose
 
