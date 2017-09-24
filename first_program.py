@@ -8,9 +8,6 @@
 #Importing division from python 3.0
 from __future__ import division
 
-print 'hello world'
-print 'hello!!!!'
-
 #Addition
 2+2
 #Subtraction
@@ -39,5 +36,14 @@ print my_taxes
 ###########
 # STRINGS #
 ###########
+from __future__ import print_function
 'Hello'
 'This is also a string'
+"This is also a string in double quotes because I'm using an apostrophe in "I'm""
+#Printing a string
+print ('hello world 1')
+print ('hello world 2')
+#Printing a string with multiple lines.
+print ('here is some text where I am \n wrapping text into multiple lines with \n')
+#Using the length function to count characters in a string
+len('hello world')
