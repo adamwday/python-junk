@@ -69,6 +69,7 @@ s[::1]
 s[::2]
 #Print output in reverse
 s[::-1]
+
 #####################
 # STRING PROPERTIES #
 #####################
@@ -86,3 +87,44 @@ s.upper()
 s.lower()
 #split string by letter 'e'
 s.split('e')
+
+####################
+# PRINT FORMATTING #
+####################
+#Insert a variable into a print string
+print 'this is a string'
+z = '13.13'
+print 'Place my variable here: %s' %(z)
+#Print a floating point number and mandate at least 1 mininum character before
+#the decimal and limit 2 places after decimal
+print 'Floating point number: %1.2f' %(13.145)
+#Insert a variable into a print string
+print 'Convert to string %r' %(z)
+#Using multiple % signs
+print 'First: %s, Second: %s, Third: %s' %('hi!', 'two', 3)
+#Using the string.format Method (preferred over example above)
+print 'First: {x} Second: {y} Third: {x}' .format(x='inserted', y='two!')
+#Python 3 example of above
+print('One: {x}' .format(x='INSERT!'))
+
+##########################
+# LISTS and LIST METHODS #
+##########################
+#Assigning a list to a variable
+my_list = [1,2,3]
+my_list = ['string',23,1.2,'o']
+#Get length of a list
+len(my_list)
+my_list = ['one', 'two', 'three, 4, 5']
+#Grab the first element
+my_list[0]
+#Grab everyting after the first element
+my_list[1:]
+#Grab everything up to the third element
+my_list[:3]
+#concatenate STRINGS
+'hello' + 'world'
+#concatenate list with STRINGS
+my_list + ['new item']
+#Adding new elements to a list
+my_list = my_list + ['permanent add']
