@@ -2,6 +2,9 @@
 # This sample python code just so I can get a feel for coding in python.
 ########################################################################
 
+########
+# MATH #
+########
 #Importing division from python 3.0
 from __future__ import division
 
@@ -32,3 +35,9 @@ tax_rate = 0.1
 my_taxes = my_income*tax_rate
 my_taxes
 print my_taxes
+
+###########
+# STRINGS #
+###########
+'Hello'
+'This is also a string'
