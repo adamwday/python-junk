@@ -47,3 +47,42 @@ print ('hello world 2')
 print ('here is some text where I am \n wrapping text into multiple lines with \n')
 #Using the length function to count characters in a string
 len('hello world')
+#Assign a label and create a variables
+s = 'Hello World'
+print s
+s
+#Grabs the 2nd letter of variable 's'
+s[1]
+#Grabs everything from the 1 index (second letter) onwards from hello world
+s[1:]
+#Grab everything up to the 3rd index (not including fourth letter)
+s[:3]
+#Grab everything
+s[:]
+#Grab one index behind zero (last letter)
+s[-1]
+#Grab everything but the last letter
+s[:-1]
+#Grabs everything in step sizes of 1
+s[::1]
+#Grabs everything in step sizes of 2
+s[::2]
+#Print output in reverse
+s[::-1]
+#####################
+# STRING PROPERTIES #
+#####################
+#Add 'Hello World' to another string
+s = s + 'concatenate me!'
+#Call letter as a variable
+letter = 'zz'
+letter
+letter*10
+#Create a variable for string
+s = 'Hello'
+#Method to make uppercase string
+s.upper()
+#method to make lowercase string
+s.lower()
+#split string by letter 'e'
+s.split('e')
