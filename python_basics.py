@@ -128,3 +128,20 @@ my_list[:3]
 my_list + ['new item']
 #Adding new elements to a list
 my_list = my_list + ['permanent add']
+#Appending methods
+l = [1,2,3]
+1.append ('append me!')
+l
+#Popping off (displaying) the last element permanently
+l.pop()
+#Popping off (displaying) the first element permanently
+x = l.pop(0)
+#Create a new list and reverse the ordere
+new_list = ['a', 'b', 'c', 'd']
+new_list.reverse()
+new_list
+#
+l_1 = [1,2,3]
+l_2 = [4,5,6]
+l_3 = [7,8,9]
+matrix = []
