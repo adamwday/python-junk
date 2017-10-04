@@ -1,10 +1,10 @@
-########################################################################
+#----------------------------------------------------------------------#
 # This sample python code just so I can get a feel for coding in python.
-########################################################################
+#----------------------------------------------------------------------#
 
-########
+#------#
 # MATH #
-########
+#------#
 #Importing division from python 3.0
 from __future__ import division
 
@@ -33,9 +33,9 @@ my_taxes = my_income*tax_rate
 my_taxes
 print my_taxes
 
-###########
+#---------#
 # STRINGS #
-###########
+#---------#
 from __future__ import print_function
 'Hello'
 'This is also a string'
@@ -70,9 +70,9 @@ s[::2]
 #Print output in reverse
 s[::-1]
 
-#####################
+#-------------------#
 # STRING PROPERTIES #
-#####################
+#-------------------#
 #Add 'Hello World' to another string
 s = s + 'concatenate me!'
 #Call letter as a variable
@@ -88,9 +88,9 @@ s.lower()
 #split string by letter 'e'
 s.split('e')
 
-####################
+#------------------#
 # PRINT FORMATTING #
-####################
+#------------------#
 #Insert a variable into a print string
 print 'this is a string'
 z = '13.13'
@@ -107,9 +107,9 @@ print 'First: {x} Second: {y} Third: {x}' .format(x='inserted', y='two!')
 #Python 3 example of above
 print('One: {x}' .format(x='INSERT!'))
 
-##########################
+#------------------------#
 # LISTS and LIST METHODS #
-##########################
+#------------------------#
 #Assigning a list to a variable
 my_list = [1,2,3]
 my_list = ['string',23,1.2,'o']
