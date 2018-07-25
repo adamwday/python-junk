@@ -1,4 +1,4 @@
-### Additional Credit: (Co-worker at Dice) Mark Hayford
+Additional Credit: (Co-worker at Dice) Mark Hayford
 
 ## Purpose:
 This script is executed on the EC2 "host" for your ECS cluster. Once executed, it begins to collect docker container stats to a local file, parse the metric data, and "put" the data to AWS/CloudWatch. From there you can pull them into Grafana or some other visualiation tool.
