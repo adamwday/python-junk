@@ -9,4 +9,6 @@ This script is executed on the EC2 "host" for your ECS cluster. Once executed, i
 4. Push to the branch: `git push -u origin my-new-feature`
 5. Submit a pull request - enjoy!
 
+----------
+
 Additional Credit: (Co-worker at Dice) Mark Hayford
