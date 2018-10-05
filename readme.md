@@ -1,5 +1,8 @@
 # Python Repo
 
+[![Build Status](https://travis-ci.com/adamwday/python-junk.svg?branch=master)](https://travis-ci.com/adamwday/python-junk)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This repository is for storing various use-cases with python and hopefully
 integrating those scripts with Terraform/Chef deployments.
 
